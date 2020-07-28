@@ -10,6 +10,12 @@
 npm install --save styled-jsx-loading-skeleton
 ```
 
+### Yarn
+
+```bash
+yarn add styled-jsx-loading-skeleton
+```
+
 ## Usage
 
 ```jsx
