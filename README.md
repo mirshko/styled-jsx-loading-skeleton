@@ -2,7 +2,7 @@
 
 > Super light-weight loading skeleton for apps already using styled-jsx
 
-[![NPM](https://img.shields.io/npm/v/styled-jsx-loading-skeleton.svg)](https://www.npmjs.com/package/styled-jsx-loading-skeleton) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/styled-jsx-loading-skeleton.svg)](https://www.npmjs.com/package/styled-jsx-loading-skeleton)
 
 ## Install
 
@@ -13,15 +13,18 @@ npm install --save styled-jsx-loading-skeleton
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'styled-jsx-loading-skeleton'
-import 'styled-jsx-loading-skeleton/dist/index.css'
+import Skeleton from 'styled-jsx-loading-skeleton'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const LoadingScreen = () => {
+  return (
+    <Fragment>
+      <Skeleton width={300} height={24} />
+      <Skeleton width={100} height={24} />
+      <Skeleton width={30} height={24} />
+    </Fragment>
+  )
 }
 ```
 
