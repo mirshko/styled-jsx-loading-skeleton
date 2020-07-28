@@ -1,6 +1,6 @@
 {
   "name": "styled-jsx-loading-skeleton",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Super light-weight loading skeleton for apps already using styled-jsx",
   "author": "mirshko",
   "license": "MIT",
